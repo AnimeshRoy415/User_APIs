@@ -33,7 +33,7 @@ public class UserController {
 		return new  ResponseEntity<User>(responseUser, HttpStatus.CREATED);
 	}
 	
-	@GetMapping("findAllUser/{pageSize}/")
+	@GetMapping("findAllUsers/{pageSize}/")
 	public ResponseEntity<List<User>> getUserController(@Valid @PathVariable Integer pageSize) {
 		
 		Integer pageNo = 0;
