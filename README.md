@@ -31,15 +31,3 @@ Postman
 <h1>Some Endpoints to access the functionalities</h1>
 
 Link to Swagger: http://localhost:8088/swagger-ui/index.html#/
-
-To add User
-
-http://localhost:8088/user/save/
-
-To get users
-
-http://localhost:8088/user/findAllUsers/{pageSize}/
-
-To get users by age
-
-http://localhost:8088/user/findUsers/{age}/
